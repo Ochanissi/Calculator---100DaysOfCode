@@ -17,10 +17,11 @@ body {
 
 #display {
     background:#C4C4C4;
-    padding: 15px;
+    padding: 0px 15px;
     color: #313131;
     text-align: right;
     border-radius: 16px 16px 0px 0px;
+    height: 60px;
 }
 
 #actions {
@@ -41,9 +42,15 @@ button {
 }
 
 .action {
-    background: #f9f9f9;
+    background: #666666;
+    color: white;
 }
 
 .blank {
     opacity: 0;
+}
+
+.operator {
+    background: #716B6B;
+    color: white;
 }
